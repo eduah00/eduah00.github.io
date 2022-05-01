@@ -25,9 +25,13 @@ h1 {
 figcaption {
   position: relative;
   left: 37rem;
-  bottom: 3rem;
+  bottom: 2.5rem;
   font-size: 1.25rem;
   font-style: italic;
+}
+
+.projects {
+  margin-top: -95px;
 }
 
 /* Shifts quote under the Name when screen is less than 1000px */
@@ -38,11 +42,13 @@ figcaption {
     bottom: 0rem;
   }
 
+  .projects {
+    margin-top: -65px;
+  }
+
 }
 
-.projects {
-  margin-top: -65px;
-}
+
 
 h2 {
   font-size: 3rem;
