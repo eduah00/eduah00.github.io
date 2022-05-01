@@ -1,27 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-.container {
-  width: 100%;
-  margin: 5rem auto 0 auto;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: rgb(102, 95, 95);
   background-image: linear-gradient(
       90deg,
       rgba(214, 214, 207, 0.9),
       rgba(186, 186, 171, 0.9)
     ), url(https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/19.jpg?3);
   background-size: cover;
-  z-index:-1;
 }
 
+
+.header {
+  display: flex;
+  color: blanchedalmond; 
+}
+
+
 h1 {
-  color: blanchedalmond;
   font-size: 5rem;
 }
 
-#projects {
+
+figcaption {
+  position: relative;
+  left: 37rem;
+  bottom: 3rem;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+/* Shifts quote under the Name when screen is less than 1000px */
+@media (max-width: 1000px) {
+  figcaption {
+    position: relative;
+    left: 0rem;
+    bottom: 0rem;
+  }
+
+}
+
+.projects {
+  margin-top: -65px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+ol {
+  list-style-type: none;
+  line-height: 2;
+  margin-top: -10px;
+  font-size: 2.75rem;
+  font-weight: 600;
+}
+
+/* unvisited link */
+a:link {
+  color: hsl(14, 34%, 51%);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
   color: darkolivegreen;
-  font-size: larger;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(128, 128, 0, 0.507);
+  text-decoration: none;
 }
