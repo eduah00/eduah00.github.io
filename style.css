@@ -27,7 +27,7 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
-  background: blanchedalmond;
+  background: darkolivegreen;
   z-index: 10;
 }
 
@@ -176,7 +176,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: darkolivegreen;
+  color: blanchedalmond;
   text-decoration: none;
 }
 
